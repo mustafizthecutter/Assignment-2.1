@@ -70,6 +70,7 @@ body {
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     padding: 18px 20px 18px 24px;
+
 }
 
 .nav-logo-word-color {
@@ -136,4 +137,39 @@ body {
     font-size: 1.25rem;
     font-weight: 500;
     padding: 21px 40px;
+}
+
+
+/* responsive layout */
+
+/* Mobile Devices */
+@media screen and (max-width:576px) {
+
+    .nav>ul,
+    .nav-logo,
+    .nav-info,
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .nav-info li {
+        margin-bottom: 20px;
+    }
+
+    .nav>ul {
+        margin: 0px 10px;
+    }
+
+    .banner-container {
+        margin-top: 200px;
+    }
+
+    .banner-info {
+        margin: 20px 20px 20px 20px;
+    }
+
+
+    .banner-img {
+        width: auto;
+    }
 }
