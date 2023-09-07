@@ -27,6 +27,17 @@ body {
 }
 
 
+.btn-primary {
+    border-radius: 48px;
+    background: #FF42A5;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 21px 40px;
+}
+
+
+
 /* nav related styles */
 .nav {
     background: #FFF;
@@ -63,4 +74,66 @@ body {
 
 .nav-logo-word-color {
     color: #FF42A5;
+}
+
+/* banner section starts */
+.banner {
+    background: #FFF;
+
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    gap: 10px;
+
+
+}
+
+.banner-info {
+
+    width: 50%;
+    margin: 150px 310px 150px 260px;
+
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.banner-description {
+    margin-top: 21px;
+}
+
+.banner-text-transform {
+    text-transform: uppercase;
+}
+
+.banner-text-goat {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.banner-button {
+    display: inline-flex;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+
+.aqua-banner-button {
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 21px 40px;
 }
