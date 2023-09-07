@@ -281,6 +281,117 @@ body {
     margin-left: 500px;
 }
 
+/* careers related styles */
+
+.career {
+    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+    width: 100%;
+}
+
+.career-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 95px;
+}
+
+.career-info {
+    padding: 120px 240px;
+
+}
+
+.career-title {
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.career-description {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+
+}
+
+.career-profession {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 42px;
+}
+
+.career-country {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: right;
+
+}
+
+.career-btn {
+    border-radius: 48px;
+    background: #FFF;
+    padding: 21px 40px;
+    cursor: pointer;
+    border: 0px;
+
+}
+
+.career-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 97px;
+    width: auto;
+
+}
+
+/* game features styles */
+
+.game-features {
+
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    padding: 120px 280px 120px 240px;
+}
+
+.game-features-row-1-container,
+.game-features-row-2-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.game-features-row-1-container {
+    margin-bottom: 27px;
+}
+
+.game-features-item {
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    background: #FFF;
+    border: 0px;
+    cursor: pointer;
+}
+
+.game-features-item:hover {
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-radius: 50px;
+    border: 1px solid var(--Linear, #FF42A5);
+
+}
+
+.game-features-item img {
+    margin-right: 16px;
+}
+
+.game-features-item p {
+    padding: 20px 20px 20px 16px;
+}
+
 
 
 /* responsive layout */
