@@ -20,6 +20,15 @@ body {
     font-weight: 700;
 }
 
+.title-color {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
 .text-light-grey {
     color: #3C354F;
     font-size: 18px;
@@ -34,6 +43,8 @@ body {
     font-size: 1.25rem;
     font-weight: 500;
     padding: 21px 40px;
+    border: 0px;
+    cursor: pointer;
 }
 
 
@@ -97,7 +108,7 @@ body {
 .banner-info {
 
     width: 50%;
-    margin: 150px 310px 150px 260px;
+    padding: 150px 310px 150px 260px;
 
 }
 
@@ -106,7 +117,7 @@ body {
 }
 
 .banner-description {
-    margin-top: 21px;
+    padding-top: 21px;
 }
 
 .banner-text-transform {
@@ -137,8 +148,41 @@ body {
     font-size: 1.25rem;
     font-weight: 500;
     padding: 21px 40px;
+    border: 0px;
+    cursor: pointer;
 }
 
+/* we are gamer styles */
+
+.we-gamer {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    /* width: 1442px;
+    margin: 0px auto; */
+}
+
+.we-game-container {
+    display: flex;
+    padding: 60px 250px;
+    gap: 55px;
+    align-items: center;
+}
+
+.we-gamer-info {
+    text-align: right;
+}
+
+.know-more-button {
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.we-gamer-quotation {
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* online games styles start */
 
 /* responsive layout */
 
