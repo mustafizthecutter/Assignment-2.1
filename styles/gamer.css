@@ -120,7 +120,7 @@ body {
     padding-top: 21px;
 }
 
-.banner-text-transform {
+#banner-text-transform {
     text-transform: uppercase;
 }
 
@@ -183,6 +183,30 @@ body {
 }
 
 /* online games styles start */
+.online-games {
+    width: 1442px;
+    margin: 120px auto;
+}
+
+.online-games-title {
+    text-align: center;
+}
+
+.online-games-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* margin: 50px 240px 120px 240px; */
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.online-games-container img {
+    margin-bottom: 25px;
+}
+
+.online-games-container-item {
+    border-radius: 16px;
+}
 
 /* responsive layout */
 
