@@ -108,7 +108,7 @@ body {
 .banner-info {
 
     width: 50%;
-    padding: 150px 310px 150px 260px;
+    padding: 150px 310px 100px 260px;
 
 }
 
@@ -466,7 +466,7 @@ body {
 /* responsive layout */
 
 /* Mobile Devices */
-/* @media screen and (max-width:576px) {
+@media screen and (max-width:576px) {
 
     .nav>ul,
     .nav-logo,
@@ -491,8 +491,27 @@ body {
         margin: 20px 20px 20px 20px;
     }
 
+    .career-info {
+        padding: 120px 20px;
 
-    .banner-img {
+    }
+
+    .career-img {
         width: auto;
     }
-} */
+
+    .game-features-row-1-container,
+    .game-features-row-2-container,
+    .game-features-item,
+    .career-container {
+        flex-direction: column;
+    }
+
+    .game-features {
+        padding: 50px 10px 50px 10px;
+    }
+
+    .footer {
+        padding: 125px 0px;
+    }
+}
